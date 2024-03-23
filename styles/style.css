@@ -1,0 +1,21 @@
+header,
+footer {
+    background-color: #023047;
+}
+
+#statement,
+#output {
+    min-height: 35px;
+}
+
+@media screen and (max-width: 767px) {
+
+    #buttons {
+        display: block !important;
+    }
+
+    #buttons .btn {
+        width: 100% !important;
+    }
+
+}
